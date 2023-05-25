@@ -5,7 +5,7 @@
         <nav class="js-mega-menu navbar-nav-wrap">
             <!-- Default Logo -->
             <a class="navbar-brand" href="{{ url('') }}" aria-label="Unify">
-                <img class="navbar-brand-logo" src="{{ asset('unify') }}/svg/logos/logo.svg" alt="Image Description">
+                <img class="navbar-brand-logo" src="{{ asset('unify') }}/svg/logos/csch.svg" alt="Image Description">
             </a>
             <!-- End Default Logo -->
 
