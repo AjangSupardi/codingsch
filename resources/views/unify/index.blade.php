@@ -6,15 +6,15 @@
             <div class="row justify-content-lg-between align-items-lg-center">
                 <div class="col-lg-5 mb-5 mb-lg-0">
                     <div class="mb-5">
-                        <h1 class="display-4 text-dark mb-5">Start your journey with <span class="text-primary">Unify</span>
+                        <h1 class="display-4 text-dark mb-5">Ingin Menjadi <span class="text-primary">Programmer</span>
+                            Handal?
                         </h1>
-                        <p class="fs-3">Feature-rich components and designed demo pages help you create the best
-                            possible products.</p>
+                        <p class="fs-3">Kami membantu mewujudkan impianmu menjadi seorang developer yang sukses.</p>
                     </div>
 
                     <div class="d-grid d-sm-flex gap-3 mb-5">
-                        <a class="btn btn-primary" href="#">Request demo</a>
-                        <a class="btn btn-ghost-dark btn-pointer" href="#">Sign up free</a>
+                        <a class="btn btn-primary" href="#">Selengkapnya</a>
+                        <a class="btn btn-ghost-dark btn-pointer" href="#">Daftar Gratis</a>
                     </div>
                 </div>
                 <!-- End Col -->
@@ -41,15 +41,15 @@
                                     </span>
                                 </div>
                                 <div class="flex-grow-1 ms-2">
-                                    <div class="fs-5 fw-bold mb-0">Julia</div>
-                                    <span class="d-block fs-6">Fantastic theme!</span>
+                                    <div class="fs-5 fw-bold mb-0">Siti Sri Fitriani</div>
+                                    <span class="d-block fs-6">Komprehensif!</span>
                                 </div>
                             </div>
                         </div>
                         <!-- End Media -->
 
                         <!-- Media -->
-                        <div class="d-inline-block position-absolute bottom-0 start-0 bg-warning w-100 rounded-pill shadow-sm p-2 mb-10 ms-n10"
+                        <div class="d-inline-block position-absolute bottom-0 start-0 bg-white w-100 rounded-pill shadow-sm p-2 mb-10 ms-n10"
                             style="max-width: 16rem;">
                             <div class="d-flex align-items-center">
                                 <div class="flex-shrink-0">
@@ -59,8 +59,8 @@
                                     </span>
                                 </div>
                                 <div class="flex-grow-1 ms-2">
-                                    <div class="fs-5 fw-bold text-dark mb-0">Michael</div>
-                                    <span class="d-block fs-6 text-dark">Excellent documentation 🔥👋</span>
+                                    <div class="fs-5 fw-bold text-dark mb-0">Zahira Daffina Ramsha</div>
+                                    <span class="d-block fs-6 text-dark">Berdedikasi 🔥👋</span>
                                 </div>
                             </div>
                         </div>
