@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Validation\Rule;
 
 class RegisterController extends Controller
 {
@@ -13,6 +14,10 @@ class RegisterController extends Controller
 
     public function registerUser(Request $request)
     {
-        dd($request->all());
+        $request->validate([
+            'name' => ['required'],
+            'email' => ['required', Rule::unique('users', 'email')],
+            'password' => ['required', 'min:8', 'confirmed'],
+        ]);
     }
 }

@@ -7,47 +7,49 @@
                 <div class="row justify-content-lg-between align-items-lg-center">
                     <div class="col-lg-5 mb-7 mb-lg-0">
                         <div class="mb-6">
-                            <h1>Hire us</h1>
-                            <p class="lead">We help brands and platforms turn big ideas into beautiful digital
-                                products and experiences.</p>
+                            <h1>Daftar</h1>
+                            <p class="lead">Bergabunglah dengan ribuan pengguna yang belajar bersama kami dan bangun karir
+                                yang sukses di industri teknologi.</p>
                         </div>
 
-                        <h5>What can I expect?</h5>
+                        <h5>Apa yang didapat?</h5>
 
                         <!-- List -->
                         <ul class="list-checked list-checked-dark mb-6">
-                            <li class="list-checked-item">Industry-leading design</li>
-                            <li class="list-checked-item">Developer community support</li>
-                            <li class="list-checked-item">Simple and affordable</li>
+                            <li class="list-checked-item">Kursus Pemrograman Berkualitas</li>
+                            <li class="list-checked-item">Mentor Ahli di Bidangnya</li>
+                            <li class="list-checked-item">Komunitas Belajar yang Solid</li>
                         </ul>
                         <!-- End List -->
 
-                        <h6>Enjoyed by</h6>
+                        <h6>Kolaborasi bersama</h6>
 
                         <div class="row mb-4">
                             <div class="col py-2">
-                                <img class="avatar avatar-lg avatar-4x3"
-                                    src="{{ asset('unify') }}/svg/brands/capsule-gray.svg" alt="Logo">
+                                <img class="avatar avatar-lg avatar-3x3"
+                                    src="{{ asset('unify') }}/svg/brands/Logo_of_UNICEF_primary.svg" alt="Logo">
                             </div>
                             <!-- End Col -->
 
                             <div class="col py-2">
-                                <img class="avatar avatar-lg avatar-4x3"
-                                    src="{{ asset('unify') }}/svg/brands/gitlab-gray.svg" alt="Logo">
+                                <img class="avatar avatar-lg avatar-3x3"
+                                    src="{{ asset('unify') }}/svg/brands/Coat_of_arms_of_West_Java.svg" alt="Logo">
                             </div>
                             <!-- End Col -->
 
                             <div class="col py-2">
-                                <img class="avatar avatar-lg avatar-4x3"
-                                    src="{{ asset('unify') }}/svg/brands/fitbit-gray.svg" alt="Logo">
+                                <img class="avatar avatar-lg avatar-3x3"
+                                    src="{{ asset('unify') }}/svg/brands/WWF_Panda_logo_primary.svg" alt="Logo">
                             </div>
                             <!-- End Col -->
 
                             <div class="col py-2">
-                                <img class="avatar avatar-lg avatar-4x3" src="{{ asset('unify') }}/svg/brands/sass-gray.svg"
+                                <img class="avatar avatar-lg avatar-3x3"
+                                    src="{{ asset('unify') }}/svg/brands/Makara_of_Universitas_Indonesia.svg"
                                     alt="Logo">
                             </div>
                             <!-- End Col -->
+
                         </div>
                         <!-- End Row -->
 
@@ -78,7 +80,7 @@
                             <!-- End Col -->
 
                             <div class="col-auto">
-                                <span class="d-block fs-5">Trusted by over 37k customer</span>
+                                <span class="d-block fs-5">Terpercaya oleh 37ribu lebih pelajar</span>
                             </div>
                             <!-- End Col -->
                         </div>
@@ -91,29 +93,43 @@
                             <!-- Card -->
                             <div class="card card-lg">
                                 <div class="card-body">
-                                    <h4>Fill in the form</h4>
+                                    <h4>Silakan isi formulir pendaftaran</h4>
 
                                     <!-- Form -->
                                     <form action="{{ route('register') }}" method="post">
                                         @csrf
                                         <div class="mb-4">
-                                            <label for="name" class="form-label">Name</label>
-                                            <input type="text" name="name" id="name" class="form-control" />
+                                            <label for="name" class="form-label">Nama</label>
+                                            <input type="text" name="name" id="name" placeholder="Nama Lengkap"
+                                                class="form-control @error('name') is-invalid @enderror" />
+                                            @error('name')
+                                                <div class="invalid-feedback">{{ $message }}</div>
+                                            @enderror
                                         </div>
                                         <div class="mb-4">
-                                            <label for="email" class="form-label">Email address</label>
-                                            <input type="email" name="email" id="email" class="form-control" />
+                                            <label for="email" class="form-label">Email</label>
+                                            <input type="email" name="email" id="email"
+                                                placeholder="Contoh: nama@email.com"
+                                                class="form-control @error('email') is-invalid @enderror" />
+                                            @error('email')
+                                                <div class="invalid-feedback">{{ $message }}</div>
+                                            @enderror
                                         </div>
                                         <div class="mb-4">
                                             <label for="password" class="form-label">Password</label>
-                                            <input type="password" name="password" id="password" class="form-control" />
+                                            <input type="password" name="password" id="password"
+                                                placeholder="Masukan Password"
+                                                class="form-control @error('password') is-invalid @enderror" />
+                                            @error('password')
+                                                <div class="invalid-feedback">{{ $message }}</div>
+                                            @enderror
                                         </div>
                                         <div class="mb-4">
-                                            <label for="confirm-password" class="form-label">Confirm Password</label>
+                                            <label for="confirm-password" class="form-label">Konfirmasi Password</label>
                                             <input type="password" name="password_confirmation" id="confirm-password"
-                                                class="form-control" />
+                                                placeholder="Masukan kembali Password" class="form-control" />
                                         </div>
-                                        <button type="submit" class="btn btn-primary">Register</button>
+                                        <button type="submit" class="btn btn-primary">Daftar</button>
                                     </form>
                                     <!-- End Form -->
                                 </div>
