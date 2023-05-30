@@ -80,11 +80,11 @@
                     <!-- Icon Block -->
                     <div class="text-center">
                         <div class="mb-3">
-                            <i class="bi-phone fs-1 text-dark"></i>
+                            <i class="bi-star-half fs-1 text-dark"></i>
                         </div>
 
-                        <h5>Responsive</h5>
-                        <span class="d-block">Responsive, and mobile-first project on the web</span>
+                        <h5>Mentor</h5>
+                        <span class="d-block">Ahli yang berpengalaman</span>
                     </div>
                     <!-- End Icon Block -->
                 </div>
@@ -94,11 +94,11 @@
                     <!-- Icon Block -->
                     <div class="text-center">
                         <div class="mb-3">
-                            <i class="bi-toggles2 fs-1 text-dark"></i>
+                            <i class="bi-journal-check fs-1 text-dark"></i>
                         </div>
 
-                        <h5>Customizable</h5>
-                        <span class="d-block">Components are easily customized</span>
+                        <h5>Kurikulum</h5>
+                        <span class="d-block">Terstruktur dan komprehensif</span>
                     </div>
                     <!-- End Icon Block -->
                 </div>
@@ -108,11 +108,11 @@
                     <!-- Icon Block -->
                     <div class="text-center">
                         <div class="mb-3">
-                            <i class="bi-file-earmark-text fs-1 text-dark"></i>
+                            <i class="bi-balloon-heart fs-1 text-dark"></i>
                         </div>
 
-                        <h5>Documentation</h5>
-                        <span class="d-block">Every component and plugin is well documented</span>
+                        <h5>Konsultasi</h5>
+                        <span class="d-block">Akses 24 jam penuh</span>
                     </div>
                     <!-- End Icon Block -->
                 </div>
@@ -122,11 +122,11 @@
                     <!-- Icon Block -->
                     <div class="text-center">
                         <div class="mb-3">
-                            <i class="bi-chat-right-dots fs-1 text-dark"></i>
+                            <i class="bi-trophy fs-1 text-dark"></i>
                         </div>
 
-                        <h5>24/7 Support</h5>
-                        <span class="d-block">Contact us 24 hours a day, 7 days a week.</span>
+                        <h5>Komunitas</h5>
+                        <span class="d-block">Bergabunglah dengan komunitas</span>
                     </div>
                     <!-- End Icon Block -->
                 </div>
@@ -166,17 +166,19 @@
 
                     <div class="col-lg-5">
                         <div class="mb-5">
-                            <h2>Collaborative tools to design user experience</h2>
-                            <p>Use our tools to explore your ideas and make your vision come true. Then share your work
-                                easily.</p>
+                            <h2>Kolaborasi Kunci Sukses Dunia Pemrograman!</h2>
+                            <p>Kolaborasi memungkinkan pertukaran pengetahuan, pemikiran, dan keahlian, memperbaiki solusi,
+                                mempercepat pengembangan, dan meningkatkan kesuksesan secara keseluruhan.</p>
                         </div>
 
                         <!-- List Checked -->
                         <ul class="list-checked list-checked-soft-bg-primary list-checked-lg">
-                            <li class="list-checked-item"><span class="fw-bold">Less routine</span> – more creativity
-                            </li>
-                            <li class="list-checked-item">Hundreds of thousands saved</li>
-                            <li class="list-checked-item">Scale budgets <span class="fw-bold">efficiently</span></li>
+                            <li class="list-checked-item">Tingkatkan <span class="fw-bold">kualitas dan efisiensi</span>
+                                kode dengan kekuatan pemikiran kolektif.</li>
+                            <li class="list-checked-item"><span class="fw-bold">Pertumbuhan</span> pribadi melalui
+                                pembelajaran dari programmer lainnya.</li>
+                            <li class="list-checked-item">Bangun <span class="fw-bold">teammwork</span> yang kuat dan capai
+                                tujuan bersama!</li>
                         </ul>
                         <!-- End List Checked -->
                     </div>
@@ -193,10 +195,10 @@
                 <div class="col-sm-6 col-lg-4 mb-5">
                     <div class="text-center px-md-5">
                         <div class="mb-3">
-                            <i class="bi-tablet-landscape fs-1 text-dark"></i>
+                            <i class="bi-hand-thumbs-up fs-1 text-dark"></i>
                         </div>
-                        <p>Unify is an <span class="fw-bold">incredibly beautiful</span> and mobile-first project on
-                            the web.</p>
+                        <p>Kembangkan keterampilan <span class="fw-bold">pemrograman yang kuat</span> dan jadi ahli di
+                            bidangnya.</p>
                     </div>
                 </div>
                 <!-- End Col -->
@@ -204,10 +206,10 @@
                 <div class="col-sm-6 col-lg-4 mb-5">
                     <div class="text-center px-md-5">
                         <div class="mb-3">
-                            <i class="bi-shield-check fs-1 text-dark"></i>
+                            <i class="bi-graph-up-arrow fs-1 text-dark"></i>
                         </div>
-                        <p>Unify is not only for developers but also for designers, and <span class="fw-bold">includes
-                                a Figma</span> file.</p>
+                        <p>Buka pintu menuju <span class="fw-bold">peluang karir</span> di industri teknologi yang
+                            berkembang pesat</p>
                     </div>
                 </div>
                 <!-- End Col -->
@@ -217,8 +219,9 @@
                         <div class="mb-3">
                             <i class="bi-hdd-network fs-1 text-dark"></i>
                         </div>
-                        <p><span class="fw-bold">Whether you're a startup</span> or a global enterprise, learn how to
-                            integrate with Unify.</p>
+                        <p>Perluas <span class="fw-bold">jaringan profesional</span> dan temukan teman seprofesi di
+                            komunitas
+                            pembelajaran kami.</p>
                     </div>
                 </div>
                 <!-- End Col -->
@@ -226,10 +229,11 @@
                 <div class="col-sm-6 col-lg-4 mb-5 mb-lg-0">
                     <div class="text-center px-md-5">
                         <div class="mb-3">
-                            <i class="bi-gear fs-1 text-dark"></i>
+                            <i class="bi-journal-code fs-1 text-dark"></i>
                         </div>
-                        <p>Use Unify thoroughly thought and automated libraries to <span class="fw-bold">manage your
-                                businesses</span>.</p>
+                        <p>Dapatkan <span class="fw-bold">kurikulum terkini</span> yang mengikuti perkembangan industri
+                            teknologi. Tetap relevan dengan
+                            tren terbaru.</p>
                     </div>
                 </div>
                 <!-- End Col -->
@@ -237,10 +241,11 @@
                 <div class="col-sm-6 col-lg-4 mb-5 mb-sm-0">
                     <div class="text-center px-md-5">
                         <div class="mb-3">
-                            <i class="bi-sliders fs-1 text-dark"></i>
+                            <i class="bi-star fs-1 text-dark"></i>
                         </div>
-                        <p>Unify template can be <span class="fw-bold">easily customized</span> with its cutting-edge
-                            components.</p>
+                        <p>Dapatkan bimbingan langsung dari <span class="fw-bold">instruktur ahli</span> yang
+                            berpengalaman. Pelajari dari yang terbaik.
+                        </p>
                     </div>
                 </div>
                 <!-- End Col -->
@@ -250,8 +255,8 @@
                         <div class="mb-3">
                             <i class="bi-journal-text fs-1 text-dark"></i>
                         </div>
-                        <p>Every component and plugin is <span class="fw-bold">well documented</span> with live
-                            examples.</p>
+                        <p>Siapkan diri dengan <span class="fw-bold">proyek praktis</span> dan studi kasus nyata. Sambut
+                            tantangan dunia kerja.</p>
                     </div>
                 </div>
                 <!-- End Col -->
